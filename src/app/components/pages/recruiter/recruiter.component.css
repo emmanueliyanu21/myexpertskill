@@ -1,0 +1,158 @@
+.ul-left {
+    margin-left: 50px;
+}
+
+.navbar-nav li {
+    font-size: 14px!important;
+    color: #fff!important;
+}
+
+.navbar-nav li a {
+    margin-right: 15px!important;
+    /* padding-right: 25px!important; */
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    font-weight: 600;
+    text-align: center!important;
+    color: #343a3f!important;
+}
+
+.navbar-nav li a:hover {
+    background-color: rgb(78, 78, 78);
+    color: #fff!important;
+    border-radius: 4px;
+}
+
+.ul-right .fa {
+    margin-right: 6px;
+}
+
+.space-d {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar .navbar-brand {
+    margin-left: 0px;
+}
+
+.grey {
+    background-color: #f8fafb;
+}
+
+.consult-x1 {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin: auto!important;
+    width: 70%!important;
+}
+
+.space-white {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.con-fm h2 {
+    padding-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.con-fm {
+    padding-bottom: 20px;
+}
+
+.btn-send {
+    background-color: #1d4386;
+    padding: 10px 180px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 6o0;
+}
+
+.con-excess {
+    text-align: center!important;
+}
+
+.btn-login {
+    background-color: #1d4386;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 30px;
+    font-weight: 600;
+}
+
+.name label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.name input {
+    font-size: 16px;
+}
+
+.btn-register {
+    background-color: #f8fafb;
+    color: #343a3f;
+    font-size: 14px;
+    padding: 10px 40px;
+}
+
+.con-fig {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+.line {
+    border-right: 1px solid rgb(230, 230, 230);
+}
+
+.con-excess .f-got {
+    font-size: 16px!important;
+    color: #1d4386;
+    padding-top: 15px;
+}
+
+.con-excess .login {
+    font-size: 16px!important;
+    color: #8ed851;
+    padding-top: 10px;
+}
+
+.wel-job h2 {
+    font-size: 22px!important;
+    padding-bottom: 14px;
+}
+
+.wel-job img {
+    text-align: center!important;
+    margin-bottom: 30px;
+    width: 60%;
+}
+
+.wel-job {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pr-jb {
+    text-align: center!important;
+}
+
+.ul-media li {
+    font-size: 14px;
+    padding-bottom: 5px;
+    list-style: none!important;
+}
+
+.ul-media {
+    padding-bottom: 10px;
+}
+
+.ul-media .fa {
+    color: #1d4386!important;
+    margin-right: 15px;
+    font-size: 14px;
+}

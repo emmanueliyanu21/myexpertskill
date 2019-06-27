@@ -1,0 +1,80 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light bg-trans bg-transparent">
+    <div class="container space-d">
+        <a class="navbar-brand" href="#"><img src="{{ logo }}" alt="logo" class="img-responsive"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ul-left">
+                <li class="nav-item active">
+                    <a class="nav-link" routerLink="/contact">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLink="/recruiter">Hire a Profile Consultant</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ul-right">
+                <li class="nav-item">
+                    <a class="nav-link disabled" routerLink="/recruiter">Recruiter Account</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" routerLink="/login"><i class="fa fa-lock"></i>Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" routerLink="/register"> <i class="fa fa-lock"></i>Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="grey">
+    <div class="container space-white">
+        <div class="row consult-x1">
+            <div class="col-md-7">
+                <div class="con-fig">
+                    <div class="con-fm">
+                        <h2>Login</h2>
+                    </div>
+                    <form (ngSubmit)="onSubmit(f)" novalidate #f="ngForm">
+                        <div class="form-group name">
+                            <label for="exampleFormControlInput1">Email Address</label>
+                            <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Email" [(ngModel)]="user.email" name="email" required #userEmail="ngModel">
+                            <div *ngIf="userEmail.errors?.required && userEmail.touched" class="alert alert-danger">Email is required</div>
+                        </div>
+                        <div class="form-group name" [class.has-error]="password.touched && password.invalid">
+                            <label for="exampleFormControlInput1">Password</label>
+                            <input type="password" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="Password" [(ngModel)]="user.password" name="password" required minlength="2" #userPassword="ngModel">
+                            <div *ngIf="userPassword.touched && userPassword.errors?.required" class="alert alert-danger">
+                                Please enter your password
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-send">Login</button>
+                    </form>
+                    <div class="con-excess">
+                        <h2 class="f-got">Forgot password</h2>
+                        <h2 class="login">New to MyExpertskills? Click on the register tab above to create a Recruiter account
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 wel-job">
+                <div class="pr-jb">
+                    <img src="{{welcome}}" alt="images here" class="img-responsive">
+                </div>
+                <h2>Get the right job that matches your acquired skills!</h2>
+                <ul class="ul-media">
+                    <li><i class="fa fa-caret-right"></i>Get daily job alerts via email</li>
+                    <li><i class="fa fa-caret-right"></i>InstaMatch to jobs hiring now</li>
+                    <li><i class="fa fa-caret-right"></i>One-click apply to jobs</li>
+                    <li><i class="fa fa-caret-right"></i>Mobile optimized job search tools</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>

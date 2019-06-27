@@ -1,0 +1,26 @@
+.ul-left {
+    margin-left: 200px;
+}
+
+.navbar-nav li {
+    font-size: 14px!important;
+}
+
+.navbar-nav li a {
+    margin-right: 15px!important;
+    /* padding-right: 25px!important; */
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    font-weight: 600;
+    text-align: center!important;
+}
+
+.navbar-nav li a:hover {
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.navbar {
+    background-color: transparent!important;
+}

@@ -1,0 +1,220 @@
+<!-- Home section -->
+<section class="main-block">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-trans bg-transparent">
+        <div class="container space-d">
+            <a class="navbar-brand" href="#"><img src="{{ logo2 }}" alt="logo" class="img-responsive"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ul-left">
+                    <li class="nav-item active">
+                        <a class="nav-link" routerLink="/contact">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/consultant">Hire a Profile Consultant</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ul-right">
+                    <li class="nav-item">
+                        <a class="nav-link disabled" routerLink="/recruiter">Recruiter Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" routerLink="/login"><i class="fa fa-lock"></i>Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" routerLink="/register"> <i class="fa fa-lock"></i>Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row right-caption">
+            <div class="col-md-12 cat">
+                <h2 class="main-caption">Get the right job that matches your skills</h2>
+                <br>
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-md-10 expand">
+                            <input class="form-control form-control-lg" type="text" placeholder="job title, keyword or location" id="exampleInputEmail1" aria-describedby="emailHelp" [(ngModel)]="searchStr" name="searchStr" (keyup)="searchJob()">
+                        </div>
+                        <div class="col-md-2">
+                            <button class="btn btn-search"><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <p>Browse Job Offer By<span>Category</span></p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- category section -->
+<section class="cat-x1">
+    <div class="container">
+        <div class="dit-core">
+            <h2>Skills Recruiters are looking for</h2>
+
+        </div>
+        <!-- row one -->
+        <div class="row cat-detail">
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-compress"></i>
+                    <h2 class="sk">Digital Marketing skill</h2>
+                    <span>3</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-beer"></i>
+                    <h2>Food Services</h2>
+                    <span>1</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-male"></i>
+                    <h2>Manufacturing Skills</h2>
+                    <span>5</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-compass"></i>
+                    <h2>Auto Servicing Skills</h2>
+                    <span>10</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- row two -->
+        <div class="row cat-detail">
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-desktop"></i>
+                    <h2>Computer Support and Services</h2>
+                    <span>2</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-code"></i>
+                    <h2>Testing Skill Navigation</h2>
+                    <span>3</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-binoculars"></i>
+                    <h2>Photography Skills</h2>
+                    <span>13</span>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="dig-x1">
+                    <i class="fa fa-wrench"></i>
+                    <h2>Capentry Skills</h2>
+                    <span>3</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="cat-view">
+            <button class="btn btn-view">Browse All Skills</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- second block -->
+<section>
+    <div class="container">
+
+        <div class="row post-x1">
+            <div class="col-md-8">
+                <h2 class="cap">Openings Recruiters needs your skills for</h2>
+                <!-- job opening -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row rc-x1 rc-x3">
+                            <div class="col-md-2 open-rec">
+                                <i class="fa fa-archive"></i>
+                            </div>
+                            <div class="col-md-8 post-dex">
+                                <h2>Admin post here</h2>
+                                <ul class="job-post">
+                                    <li>Front-End Engineer</li>
+                                    <li>Lagos</li>
+                                    <li>N300,000</li>
+                                    <li class="mn-hr">1 Month Ago</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rc-rol">
+                                    <h2>Internship</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row rc-x1 rc-x2">
+                            <div class="col-md-2 open-rec">
+                                <i class="fa fa-archive"></i>
+                            </div>
+                            <div class="col-md-8 post-dex">
+                                <h2>Admin post here</h2>
+                                <ul class="job-post">
+                                    <li>Front-End Engineer</li>
+                                    <li>Lagos</li>
+                                    <li>N300,000</li>
+                                    <li class="mn-hr">1 Month Ago</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="rc-role">
+                                    <h2>Internship</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <h2 class="cap">Skill Insight</h2>
+            </div>
+        </div>
+        <!--  -->
+
+        <!-- <div class="row">
+            <div class="col-md-12">
+                <div class="row rc-x1">
+                    <div class="col-md-2 open-rec">
+                        <i class="fa fa-archive"></i>
+                    </div>
+                    <div class="col-md-8 post-dex">
+                        <h2>Admin post here</h2>
+                        <ul class="job-post">
+                            <li>Front-End Engineer</li>
+                            <li>Lagos</li>
+                            <li>N300,000</li>
+                            <li>1 Month Ago</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="rc-role">
+                            <h2>Internship</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</section>

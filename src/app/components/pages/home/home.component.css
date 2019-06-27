@@ -1,0 +1,268 @@
+.ul-left {
+    margin-left: 50px;
+}
+
+.navbar-nav li {
+    font-size: 14px!important;
+    color: #fff!important;
+}
+
+.navbar-nav li a {
+    margin-right: 15px!important;
+    /* padding-right: 25px!important; */
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    font-weight: 600;
+    text-align: center!important;
+    color: #fff!important;
+}
+
+.navbar-nav li a:hover {
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+    border-radius: 4px;
+}
+
+.space-d {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar .bg-trans {
+    background-color: transparent!important;
+}
+
+.ul-right .fa {
+    margin-right: 6px;
+}
+
+.navbar {
+    border-bottom: 1px solid rgb(77, 77, 77);
+}
+
+.navbar .navbar-brand {
+    margin-left: 0px;
+}
+
+.btn-search {
+    text-align: center;
+    background-color: #1d4386;
+    color: #fff;
+    padding: 7px 25px;
+    border-radius: 4px;
+    font-size: 30px;
+}
+
+.expand input {
+    /* padding-top: 30px!important;
+    padding-bottom: 30px!important; */
+    height: 60px!important;
+    font-size: 16px!important;
+    margin-bottom: 10px;
+}
+
+.cat span {
+    border: 1px solid #fff;
+    padding: 4px 15px;
+    border-radius: 4px;
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+
+/* start of styling category */
+
+.dig-x1 {
+    background-color: #fff;
+    font-family: Raleway;
+}
+
+.cat-x1 {
+    background-color: #f8fafb;
+}
+
+.cat-x1 h2 {
+    font-size: 24px;
+}
+
+.cat-detail {
+    margin-bottom: 30px;
+}
+
+.dit-core {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.dig-x1 {
+    text-align: center!important;
+    border-radius: 4px;
+    padding: 30px 20px;
+    cursor: pointer;
+}
+
+.dig-x1:hover {
+    background-color: #1d4386;
+    color: #fff!important;
+    transition: -webkit-transform 2s ease;
+    transition: transform 2s ease;
+    transition: transform 2s ease, -webkit-transform 2s ease;
+}
+
+.dig-x1 .sk:hover {
+    color: #fff!important;
+}
+
+.dig-x1 h2 {
+    font-size: 14px;
+    padding-bottom: 10px;
+    color: #7b8088!important;
+}
+
+.dig-x1 span {
+    background-color: #f8fafb;
+    padding: 2px 20px;
+    border-radius: 4px;
+}
+
+.dig-x1 .fa {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.cat-view {
+    text-align: center;
+}
+
+.btn-view {
+    background-color: #1d4386;
+    padding: 10px 25px;
+    border-radius: 3px;
+    color: #fff!important;
+    font-size: 14px!important;
+    margin-bottom: 30px!important;
+    margin-top: 15px;
+    font-family: Raleway;
+}
+
+.btn-view:hover {
+    background-color: #201206;
+}
+
+
+/* end of styling category */
+
+
+/* start of posting */
+
+.post-x1 {
+    padding-top: 60px;
+}
+
+.post-x1 .cap {
+    font-size: 26px;
+}
+
+.post-dex h2 {
+    font-size: 16px;
+    font-family: Raleway;
+    color: #1d4386;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    margin-bottom: 2px!important;
+    font-weight: 600;
+}
+
+.open-rec .fa {
+    font-size: 60px;
+    color: #999;
+    float: right!important;
+}
+
+.rc-x1 {
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rc-x2 {
+    margin-bottom: 60px;
+    border-left: 4px solid #007b40;
+}
+
+.rc-x3 {
+    border-left: 4px solid #ffee02;
+}
+
+.job-post li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    color: #7b8088;
+    font-size: 12px;
+}
+
+.job-post {
+    margin-left: 0px!important;
+    padding-left: 0px!important;
+}
+
+.job-post .mn-hr {
+    border: 1px solid #b9b9b9;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.rc-rol h2 {
+    font-size: 14px!important;
+    background-color: #fffef7;
+    border: 1px solid #ffee02;
+    border-radius: 3px;
+    color: #ffee02;
+    padding: 6px 6px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.rc-role h2 {
+    font-size: 14px!important;
+    background-color: #fffef7;
+    border: 1px solid #007b40;
+    border-radius: 3px;
+    color: #007b40;
+    padding: 6px 6px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-block {
+    background-size: cover;
+    width: auto;
+    background-image: url('src/assets/background.jpg');
+    background-position: 50% 50%;
+}
+
+.main-caption {
+    padding-top: 200px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.right-caption p {
+    color: #fff;
+    font-size: 14px;
+}
+
+.right-caption {
+    padding-bottom: 150px;
+}
+
+.form-group .form-control-lg {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
