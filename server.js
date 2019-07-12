@@ -8,7 +8,6 @@ const http = require('http');
 const { mongoDbUrl } = require('./config/database');
 const passport = require('passport');
 
-
 mongoose.Promise = global.Promise;
 
 mongoose.connect(mongoDbUrl, { useNewUrlParser: true }).then(db => {
@@ -34,13 +33,13 @@ app.use(passport.session());
 
 //Angular dist output folder
 app.use(express.static(path.join(__dirname, 'dist/myexpertskill')));
-
+app.use(express.static(path.join(__dirname, 'src/app')));
 //Load routes
 const register = require('./routes/index');
 
 //Use Routes 
 app.use('/index', index);
-app.use('./src/app/components/pages/register', register);
+app.use('/register', path.join(__dirname, 'src/app/pages/register') );
 
 // send all other request to angular app
 app.set('*', (req, res) => {

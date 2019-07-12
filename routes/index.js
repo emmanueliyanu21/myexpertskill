@@ -1,10 +1,11 @@
 var express = require('express');
 var router = express.Router();
 const ObjectID = require('mongodb').ObjectID;
-MongoClient = require('mongodb').MongoClient;
+
 const bcrypt = require('bcryptjs');
 const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
+MongoClient = require('mongodb').MongoClient;
 
 const connection = (closure) => {
     return MongoCLient.connect('mongodb://localhost:27017/myexpertskill', (err, db) => {
@@ -47,7 +48,6 @@ router.get('/login', (req, res) => {
 });
 
 //APP login
-
 passport.use(new LocalStrategy({ usernameField: 'email' }, (email, password, done) => {
 
     User.findOne({ email: email }).then(user => {
